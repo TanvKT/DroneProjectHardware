@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "017ad117-34ad-49ef-99eb-43f2e6595106")
+	(uuid "26afee50-8a1f-4f59-b4d8-18cc70c05fad")
 	(paper "A4")
 	(title_block
 		(title "Peripherals")
@@ -4024,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70fda686-701c-475c-a1ff-b67d5f28d133")
-		(property "Reference" "R1"
+		(property "Reference" "R66"
 			(at 171.45 91.4399 0)
 			(effects
 				(font
@@ -4078,7 +4078,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
-					(reference "R1")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97b246c0-2519-4d33-9d28-7eba3b916231")
-		(property "Reference" "R3"
+		(property "Reference" "R64"
 			(at 153.67 91.4399 0)
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
-					(reference "R3")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9192f11-3073-46d7-aa31-0afdd0ed825b")
-		(property "Reference" "R2"
+		(property "Reference" "R65"
 			(at 162.56 91.4399 0)
 			(effects
 				(font
@@ -5631,7 +5631,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
-					(reference "R2")
+					(reference "R65")
 					(unit 1)
 				)
 			)

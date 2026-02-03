@@ -2324,16 +2324,6 @@
 		)
 		(uuid "f48703cc-c6b2-4a4d-b836-f38c0b60d1ba")
 	)
-	(label "NRST_BTN"
-		(at 212.09 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27e84f28-1008-45ea-b36d-c3a4bda7a7ba")
-	)
 	(global_label "NRST"
 		(shape output)
 		(at 243.84 76.2 0)

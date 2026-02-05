@@ -743,6 +743,48 @@
 		)
 	)
 	(sheet
+		(at 556.26 575.31)
+		(size 175.26 152.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72397f96-55cc-49a6-a93c-cb17cd320923")
+		(property "Sheetname" "Motor_4"
+			(at 556.26 574.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_4.kicad_sch"
+			(at 556.26 728.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 199.39 406.4)
 		(size 161.29 160.02)
 		(exclude_from_sim no)
@@ -780,6 +822,132 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 574.04)
+		(size 179.07 156.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e78fe91-b3dd-4c76-9776-e4e7e22d77fb")
+		(property "Sheetname" "Motor_1"
+			(at 0 573.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_1.kicad_sch"
+			(at 0 730.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 575.31)
+		(size 168.91 154.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae880421-00c7-4dc1-b1fa-811268a0bd15")
+		(property "Sheetname" "Motor_2"
+			(at 187.96 574.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_2.kicad_sch"
+			(at 187.96 730.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 372.11 575.31)
+		(size 166.37 153.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd38f2fa-ba11-4dce-b9e1-18919a9c8298")
+		(property "Sheetname" "Motor_3"
+			(at 372.11 574.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_3.kicad_sch"
+			(at 372.11 729.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "10")
 				)
 			)
 		)

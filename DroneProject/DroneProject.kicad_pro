@@ -553,6 +553,22 @@
       {
         "netclass": "VBAT/Motors",
         "pattern": "/Connectors/VBAT_SW"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "-BATT"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "/Power/VBAT_SW"
+      },
+      {
+        "netclass": "Power (3.3, 5)",
+        "pattern": "/Power/VBAT_SW_R"
       }
     ]
   },
@@ -711,6 +727,22 @@
     [
       "549b7e14-111c-4b4c-b760-2593bded07ed",
       "Debug"
+    ],
+    [
+      "8e78fe91-b3dd-4c76-9776-e4e7e22d77fb",
+      "Motor_1"
+    ],
+    [
+      "ae880421-00c7-4dc1-b1fa-811268a0bd15",
+      "Motor_2"
+    ],
+    [
+      "dd38f2fa-ba11-4dce-b9e1-18919a9c8298",
+      "Motor_3"
+    ],
+    [
+      "72397f96-55cc-49a6-a93c-cb17cd320923",
+      "Motor_4"
     ]
   ],
   "text_variables": {}

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "033a82cf-7dc4-4a89-99fc-40cc9735e586")
+	(uuid "59f7e82e-922e-4626-91e5-38e924f75d58")
 	(paper "A4")
 	(title_block
 		(title "Debug")
@@ -1979,7 +1979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
 			(at 152.4 132.08 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
 			(at 182.88 132.08 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
 			(at 170.18 132.08 0)
 			(effects
 				(font

@@ -701,7 +701,7 @@
 		)
 	)
 	(sheet
-		(at 0 236.22)
+		(at 6.35 237.49)
 		(size 298.45 151.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -717,7 +717,7 @@
 		)
 		(uuid "5f80dbe8-3816-43d2-97e2-b561c5161320")
 		(property "Sheetname" "Power"
-			(at 0 235.5084 0)
+			(at 6.35 236.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 0 387.9346 0)
+			(at 6.35 389.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

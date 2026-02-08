@@ -569,6 +569,18 @@
       {
         "netclass": "Power (3.3, 5)",
         "pattern": "/Power/VBAT_SW_R"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "+8V"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "/Power/8V_PH"
+      },
+      {
+        "netclass": "VBAT/Motors",
+        "pattern": "/Power/8V_VSNS"
       }
     ]
   },
@@ -729,6 +741,10 @@
       "Debug"
     ],
     [
+      "b6a115f3-035a-43b2-b989-cf27d7328b3b",
+      "Motor Controller"
+    ],
+    [
       "8e78fe91-b3dd-4c76-9776-e4e7e22d77fb",
       "Motor_1"
     ],
@@ -743,6 +759,10 @@
     [
       "72397f96-55cc-49a6-a93c-cb17cd320923",
       "Motor_4"
+    ],
+    [
+      "cacd4093-de6a-46a4-8042-da27bb463aad",
+      "Prog"
     ]
   ],
   "text_variables": {}

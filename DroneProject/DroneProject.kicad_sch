@@ -659,7 +659,7 @@
 		)
 	)
 	(sheet
-		(at 389.89 406.4)
+		(at 363.22 406.4)
 		(size 194.31 160.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -675,7 +675,7 @@
 		)
 		(uuid "549b7e14-111c-4b4c-b760-2593bded07ed")
 		(property "Sheetname" "Debug"
-			(at 389.89 405.6884 0)
+			(at 363.22 405.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +684,7 @@
 			)
 		)
 		(property "Sheetfile" "Debug.kicad_sch"
-			(at 389.89 567.0046 0)
+			(at 363.22 567.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,13 +779,13 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 199.39 406.4)
+		(at 189.23 406.4)
 		(size 161.29 160.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -801,7 +801,7 @@
 		)
 		(uuid "7cfdeeab-6878-42e6-abbb-2c878b968332")
 		(property "Sheetname" "Peripherals"
-			(at 199.39 405.6884 0)
+			(at 189.23 405.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 199.39 567.0046 0)
+			(at 189.23 567.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +863,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -905,7 +905,91 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
-					(page "9")
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 575.31 407.67)
+		(size 226.06 157.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6a115f3-035a-43b2-b989-cf27d7328b3b")
+		(property "Sheetname" "Motor Controller"
+			(at 575.31 406.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Control.kicad_sch"
+			(at 575.31 565.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 601.98 238.76)
+		(size 195.58 144.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cacd4093-de6a-46a4-8042-da27bb463aad")
+		(property "Sheetname" "Prog"
+			(at 601.98 238.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Prog.kicad_sch"
+			(at 601.98 384.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
+					(page "13")
 				)
 			)
 		)
@@ -947,7 +1031,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30"
-					(page "10")
+					(page "11")
 				)
 			)
 		)

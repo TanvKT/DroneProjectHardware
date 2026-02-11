@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3feaa991-2b2a-4779-b368-4f2abd31d5bb")
+	(uuid "a319d3a8-3798-4513-a257-0bdf100cfc2c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -2291,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 129.54) (xy 162.56 129.54)
+			(xy 153.67 129.54) (xy 187.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2909,16 +2909,6 @@
 		)
 		(uuid "c514410d-5747-45c4-bd51-a5be8ad319e0")
 	)
-	(label "C1_SWO"
-		(at 154.94 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb9012fe-7abf-437d-b615-8db32c1f05f4")
-	)
 	(global_label "C0_UART_RX"
 		(shape bidirectional)
 		(at 160.02 173.99 0)
@@ -3171,6 +3161,27 @@
 			)
 		)
 	)
+	(global_label "C1_SWO"
+		(shape input)
+		(at 187.96 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3ac0b44-48db-4fd5-bc0d-da37c07114ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.3837 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 81.28 121.92 180)
@@ -3193,7 +3204,7 @@
 		)
 	)
 	(global_label "C0_SWO"
-		(shape bidirectional)
+		(shape input)
 		(at 187.96 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3204,7 +3215,7 @@
 		)
 		(uuid "b0dad54c-022c-4127-b1d9-29ad2c00b31f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.495 76.2 0)
+			(at 198.3837 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,76 +3839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 162.56 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f817f23-89f1-42c7-b329-c8d529d22727")
-		(property "Reference" "R136"
-			(at 165.1 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 165.1 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.544 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 162.56 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b846c054-9dcb-46d5-bc1b-684cfde2d75a")
-		)
-		(pin "2"
-			(uuid "3676568a-90df-481a-8569-38ba4795f7b1")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/cacd4093-de6a-46a4-8042-da27bb463aad"
-					(reference "R136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 156.21 0)
 		(unit 1)
@@ -3957,72 +3898,6 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/cacd4093-de6a-46a4-8042-da27bb463aad"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 162.56 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "487943f4-6108-4eda-9861-7b9c64bd2472")
-		(property "Reference" "#PWR018"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9580bbe-d026-480d-8245-095d56314b87")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/cacd4093-de6a-46a4-8042-da27bb463aad"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)

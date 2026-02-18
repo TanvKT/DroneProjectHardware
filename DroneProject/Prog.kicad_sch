@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a319d3a8-3798-4513-a257-0bdf100cfc2c")
+	(uuid "29be33e9-cb0f-4723-9257-461f56593323")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -4880,7 +4880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L101011MS02Q"
+		(property "Value" "TS02CBE"
 			(at 27.94 63.4999 90)
 			(effects
 				(font
@@ -4889,7 +4889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SW_1MS02Q_CNK"
+		(property "Footprint" "Library:SW_TS02_10P16X5P08_CNK"
 			(at 25.4 62.23 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f96b939f-ff03-49bc-9adb-4111ae3738ed")
-		(property "Reference" "C5"
+		(property "Reference" "C134"
 			(at 108.966 146.05 0)
 			(effects
 				(font
@@ -6097,7 +6097,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/cacd4093-de6a-46a4-8042-da27bb463aad"
-					(reference "C5")
+					(reference "C134")
 					(unit 1)
 				)
 			)

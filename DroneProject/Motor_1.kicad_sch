@@ -2517,12 +2517,6 @@
 		(uuid "460e07df-f54a-40fa-9d76-db279571381c")
 	)
 	(junction
-		(at 137.16 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46cc6130-9d86-4143-bdc3-d0c01223dbc7")
-	)
-	(junction
 		(at 209.55 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2820,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 99.06) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3058b0b7-c637-40f1-9b46-abe4808e1852")
+	)
+	(wire
+		(pts
 			(xy 187.96 99.06) (xy 179.07 99.06)
 		)
 		(stroke
@@ -2890,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 38.1)
+			(xy 137.16 30.48) (xy 137.16 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3140,6 +3144,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 41.91) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7687ac86-ea34-44c0-aec3-db2c58206dda")
+	)
+	(wire
+		(pts
 			(xy 120.65 99.06) (xy 179.07 99.06)
 		)
 		(stroke
@@ -3197,6 +3211,16 @@
 			(type default)
 		)
 		(uuid "939ea625-d19d-43bc-b554-900a3a99559b")
+	)
+	(wire
+		(pts
+			(xy 19.05 114.3) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958a27ea-c18f-40e3-b24c-75d09043b829")
 	)
 	(wire
 		(pts
@@ -3310,6 +3334,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 106.68) (xy 74.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beddb63e-ecc0-4389-85e2-4507254fc53f")
+	)
+	(wire
+		(pts
 			(xy 129.54 148.59) (xy 129.54 142.24)
 		)
 		(stroke
@@ -3347,16 +3381,6 @@
 			(type default)
 		)
 		(uuid "d5439c41-2715-45f4-b835-cb71f2d8b0c3")
-	)
-	(wire
-		(pts
-			(xy 137.16 38.1) (xy 123.19 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62ac5de-6888-4109-bd03-10ade5fcf756")
 	)
 	(wire
 		(pts
@@ -3840,7 +3864,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 123.19 45.72 0)
+		(at 137.16 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3849,7 +3873,7 @@
 		(fields_autoplaced yes)
 		(uuid "02a3120e-b0d7-4928-afd2-8efe9b21a91b")
 		(property "Reference" "#PWR0151"
-			(at 123.19 50.8 0)
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3882,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 123.063 49.53 0)
+			(at 137.033 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 123.19 45.72 0)
+			(at 137.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,6 +4135,71 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
 					(reference "C913")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16039ce5-e57d-44bb-ab42-8b35a8ac68c8")
+		(property "Reference" "#PWR0262"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 21.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90613c01-6e1d-4d32-a125-765558b2517f")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b774726-1a21-45af-ba6b-62c0a457648c")
-		(property "Reference" "R95"
+		(property "Reference" "R98"
 			(at 172.72 72.3899 0)
 			(effects
 				(font
@@ -4482,77 +4571,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "R95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 137.16 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33cbdd7b-a7c9-4fc0-af1f-f2eed9d15771")
-		(property "Reference" "C97"
-			(at 140.97 39.7509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270uF"
-			(at 140.97 42.2909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 138.1252 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 137.16 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea192fa2-7880-4785-a71c-d0a5152d3c1b")
-		)
-		(pin "1"
-			(uuid "b59fdf87-5af2-495c-8325-32ff2eb73fc7")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "C97")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -4773,7 +4792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c7cb80a-a387-4a11-8442-569205bfae4e")
-		(property "Reference" "R94"
+		(property "Reference" "R97"
 			(at 25.4 134.366 0)
 			(effects
 				(font
@@ -4827,7 +4846,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "R94")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65bcf39c-3573-4cbb-8f4d-dff975c5d608")
-		(property "Reference" "R93"
+		(property "Reference" "R96"
 			(at 52.578 122.682 90)
 			(effects
 				(font
@@ -5311,7 +5330,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "R93")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b5a976-f5c7-487c-b68f-7c1a766ea0e4")
-		(property "Reference" "R96"
+		(property "Reference" "R99"
 			(at 200.66 95.2499 0)
 			(effects
 				(font
@@ -6042,7 +6061,7 @@
 		(instances
 			(project ""
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "R96")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -6387,6 +6406,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92ea8ebb-aab2-419d-923d-d16be98ca0dc")
+		(property "Reference" "#PWR0261"
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 27.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "539d3e37-e293-4f2b-bf8a-45d4a0886a67")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 50.8 63.5 0)
 		(unit 1)
@@ -6649,6 +6733,146 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ba4d48-59d2-470d-b896-051b027b0618")
+		(property "Reference" "R92"
+			(at 34.29 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 34.29 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.734 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a3cf67f-cffa-4164-8f6d-9671e5e1632f")
+		)
+		(pin "2"
+			(uuid "8085e3dc-76cc-4c9e-a2cc-750e1a0fbaed")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 137.16 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d7394a-5373-49c3-ad5b-df1af20bc2f0")
+		(property "Reference" "C96"
+			(at 140.97 35.9409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "440uF"
+			(at 140.97 38.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 138.1252 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c4eab8d-1c3c-4955-927f-c78d5553b677")
+		)
+		(pin "2"
+			(uuid "5acb767e-467b-434c-8222-2bcde8966aff")
+		)
+		(instances
+			(project ""
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -6922,6 +7146,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 25.4 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbe2a9be-f97f-41e4-baf9-1b72eb2f90b3")
+		(property "Reference" "R93"
+			(at 27.94 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.94 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 24.384 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5308527-9884-41ce-a1ba-4a2408208324")
+		)
+		(pin "2"
+			(uuid "74fd2676-3912-42e7-baf9-5c9563e1317e")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 170.18 77.47 0)
 		(unit 1)
@@ -7114,6 +7408,76 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 19.05 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c78b6f77-27ab-4a8b-8f8b-30eb1cea2975")
+		(property "Reference" "R94"
+			(at 21.59 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 21.59 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 18.034 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 19.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f23f79-9997-42d9-b277-a85d01e8690d")
+		)
+		(pin "2"
+			(uuid "c62ae080-cc4d-4f3f-86bd-38e1d9e41411")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -7407,6 +7771,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 19.05 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d56b7c90-8c62-4368-86a9-a999a31e65a2")
+		(property "Reference" "#PWR0263"
+			(at 19.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 15.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6471d83-c25d-4af2-86ab-1163118764bb")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 72.39 180)
 		(unit 1)
@@ -7471,72 +7900,6 @@
 			(project ""
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
 					(reference "C94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 137.16 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcaf8861-e496-4d29-ad3b-1c948d577384")
-		(property "Reference" "#PWR0152"
-			(at 137.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 137.033 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9294ff2e-d683-446e-88aa-c762895d1880")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -7836,7 +8199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dfc2c3-4c5c-4f8d-9bcc-f26040808904")
-		(property "Reference" "R92"
+		(property "Reference" "R95"
 			(at 40.64 114.2999 0)
 			(effects
 				(font
@@ -7890,77 +8253,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "R92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 123.19 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eddb56b9-7e9c-46ef-be63-ab2ac8ff47dd")
-		(property "Reference" "C96"
-			(at 127 39.7509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270uF"
-			(at 127 42.2909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 124.1552 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 123.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5612f59d-f3ed-4b5f-8b68-2d5e92c6897f")
-		)
-		(pin "1"
-			(uuid "da0ac75e-9442-4724-9c70-26f8cc2befc6")
-		)
-		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/8e78fe91-b3dd-4c76-9776-e4e7e22d77fb"
-					(reference "C96")
+					(reference "R95")
 					(unit 1)
 				)
 			)

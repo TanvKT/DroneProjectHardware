@@ -739,30 +739,6 @@
     [
       "549b7e14-111c-4b4c-b760-2593bded07ed",
       "Debug"
-    ],
-    [
-      "b6a115f3-035a-43b2-b989-cf27d7328b3b",
-      "Motor Controller"
-    ],
-    [
-      "8e78fe91-b3dd-4c76-9776-e4e7e22d77fb",
-      "Motor_1"
-    ],
-    [
-      "ae880421-00c7-4dc1-b1fa-811268a0bd15",
-      "Motor_2"
-    ],
-    [
-      "dd38f2fa-ba11-4dce-b9e1-18919a9c8298",
-      "Motor_3"
-    ],
-    [
-      "72397f96-55cc-49a6-a93c-cb17cd320923",
-      "Motor_4"
-    ],
-    [
-      "cacd4093-de6a-46a4-8042-da27bb463aad",
-      "Prog"
     ]
   ],
   "text_variables": {}

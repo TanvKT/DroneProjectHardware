@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 302.26 0)
+		(size 281.94 198.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8706189-046a-451a-b285-b33b476fce5c")
+		(property "Sheetname" "Connectors"
+			(at 302.26 -0.7116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 302.26 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 214.63)
+		(size 269.24 190.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8819b5d-6d92-40b6-816c-12e04bd43e9a")
+		(property "Sheetname" "MCU"
+			(at 0 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 0 405.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 300.99 217.17)
+		(size 283.21 190.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e65145b7-d6a3-4fa6-80d1-6d6a13317df0")
+		(property "Sheetname" "Motor"
+			(at 300.99 216.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor.kicad_sch"
+			(at 300.99 408.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

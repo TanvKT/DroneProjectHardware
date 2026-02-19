@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 612.14 218.44)
+		(size 250.19 194.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9889bfb1-7b10-4937-a69d-33a63160ee36")
+		(property "Sheetname" "Debug"
+			(at 612.14 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 612.14 413.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 302.26 0)
 		(size 281.94 198.12)
 		(exclude_from_sim no)
@@ -84,6 +126,48 @@
 		(instances
 			(project "DroneBrushlessESC"
 				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 613.41 1.27)
+		(size 248.92 200.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2825883-0794-4952-a6ee-b51f1803319d")
+		(property "Sheetname" "Power"
+			(at 613.41 0.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 613.41 202.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
 					(page "3")
 				)
 			)
@@ -126,7 +210,7 @@
 		(instances
 			(project "DroneBrushlessESC"
 				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0"
-					(page "4")
+					(page "5")
 				)
 			)
 		)

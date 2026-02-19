@@ -2,13 +2,8 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "59f7e82e-922e-4626-91e5-38e924f75d58")
+	(uuid "d9441c97-b2a3-4ec7-a79a-8feb7af957e8")
 	(paper "A4")
-	(title_block
-		(title "Debug")
-		(date "2026-01-30")
-		(rev "0-1")
-	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers
@@ -674,251 +669,538 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Misc Debug"
-		(exclude_from_sim no)
-		(at 53.086 60.706 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
 			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "6ee78cc5-746b-4279-bbb1-bb5cd775a91a")
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Reset"
 		(exclude_from_sim no)
-		(at 53.086 33.02 0)
+		(at 50.546 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "82b0293b-37e8-4135-b9c1-4752dea59788")
-	)
-	(text "Testpoints"
-		(exclude_from_sim no)
-		(at 159.766 22.098 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d272786-c315-4def-841e-c43a77e4d69f")
+		(uuid "6137b2f4-4e33-464a-87fc-441443a20c1a")
 	)
 	(text "PWR Good"
 		(exclude_from_sim no)
-		(at 52.832 46.736 0)
+		(at 50.292 40.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cda7514c-8927-481f-9e65-8191d244ffa0")
+		(uuid "b2656b83-5b09-44db-8b83-752df7295432")
+	)
+	(text "Motor PWR Good"
+		(exclude_from_sim no)
+		(at 50.546 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea8d4a3e-db98-45b3-80e3-b9946a220928")
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 165.1 40.64)
+			(xy 39.37 63.5) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e2764bd-383d-42f4-9d80-847365322078")
+		(uuid "25e22736-b282-4c99-a9f5-7b785050ec10")
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 142.24 40.64)
+			(xy 26.67 45.72) (xy 26.67 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e771d8d-d2e4-45c6-96a4-5502ee85c087")
+		(uuid "2857cc47-bf8c-4842-87ea-19db540f2d61")
 	)
 	(wire
 		(pts
-			(xy 29.21 66.04) (xy 34.29 66.04)
+			(xy 26.67 27.94) (xy 26.67 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb70c00-e98c-4f80-89bf-02e830c8b887")
+		(uuid "36208462-1f82-41b4-853d-df56b08e7a27")
 	)
 	(wire
 		(pts
-			(xy 29.21 62.23) (xy 29.21 66.04)
+			(xy 69.85 45.72) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d0b905a-244f-4f33-86e9-1d9d0444cbd5")
+		(uuid "3a76aaf7-bc7e-4f7b-8c37-4c8796fbe421")
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 64.77 52.07)
+			(xy 31.75 45.72) (xy 26.67 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4424f4fc-5900-4a79-9bf8-4af46da0b508")
+		(uuid "43ebb560-9ea9-48b1-85b3-5b768f911e43")
 	)
 	(wire
 		(pts
-			(xy 41.91 38.1) (xy 64.77 38.1)
+			(xy 168.91 35.56) (xy 176.53 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44d5026a-793b-4e56-a49e-330400889563")
+		(uuid "47b74718-3e9c-4cbc-b282-05f4c39d7440")
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 34.29 38.1)
+			(xy 69.85 31.75) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b4d6c78-7a51-4149-b3cf-7283de7171ae")
+		(uuid "739f2d2f-0387-4ac5-a6e2-ad7a0d9b7f8e")
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 82.55 66.04)
+			(xy 26.67 31.75) (xy 31.75 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c67b190-3b08-4b65-94a9-f39bc2c24203")
+		(uuid "a8e619d6-446a-45ee-9527-da6cc85c09bb")
 	)
 	(wire
 		(pts
-			(xy 29.21 52.07) (xy 29.21 48.26)
+			(xy 26.67 59.69) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6928c471-f952-4d8f-a5c7-aefafb7e1474")
+		(uuid "ac2287c7-72c2-4a5a-8e73-06426689b21b")
 	)
 	(wire
 		(pts
-			(xy 41.91 66.04) (xy 64.77 66.04)
+			(xy 152.4 27.94) (xy 152.4 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dca1f46-9e53-44a1-b1de-f4698831032b")
+		(uuid "c1b057d4-1cc2-432d-8ab5-8b5330b92d71")
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 82.55 52.07)
+			(xy 168.91 27.94) (xy 168.91 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dc20f2b-79be-40ca-a28c-b3baf9dcfcf7")
+		(uuid "c8b59ea3-b761-4283-97a4-b00328aebeb5")
 	)
 	(wire
 		(pts
-			(xy 157.48 33.02) (xy 157.48 40.64)
+			(xy 26.67 63.5) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "904c0389-f77e-4fbb-af39-82c2587ef24e")
+		(uuid "d30a2fe6-908e-4d8f-85ab-befd277a2efd")
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 29.21 52.07)
+			(xy 172.72 88.9) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9def085f-5751-4f20-9044-8a93c0dc220f")
+		(uuid "e3820f25-e9c7-4031-9765-26ffad95e131")
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 82.55 38.1)
+			(xy 152.4 88.9) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af3fbf33-df1e-4c59-8ad9-95ef27305642")
+		(uuid "e4bd437d-b710-435e-be2a-dc688f4d544a")
 	)
 	(wire
 		(pts
-			(xy 29.21 34.29) (xy 29.21 38.1)
+			(xy 39.37 45.72) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1b58cf8-d6e5-42c6-a567-f3d4d9f78721")
+		(uuid "e81acd1f-e031-4954-bca8-215f6e8b498c")
 	)
-	(label "GPIO_LED"
-		(at 48.26 66.04 0)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3d3f19-5168-48ba-bce5-b6605c3db8b6")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7801caa-cc83-4695-bd75-2d2f0ea0ccdc")
+	)
+	(label "MTR_PWR_GOOD_LED"
+		(at 41.91 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "02fe1b92-3b92-4255-bde3-3eb49dd9ecb4")
-	)
-	(label "PWR_GOOD_LED"
-		(at 45.72 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a979db9f-3da5-42c2-b053-f4de91d0f63d")
+		(uuid "8bf8bb2e-e7e2-4f38-aeb5-957bab8c71be")
 	)
 	(label "NRST_LED"
-		(at 48.26 38.1 0)
+		(at 45.72 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dc056f08-9a2c-490a-b0c7-ff7fcb9f2438")
+		(uuid "c62fa9e3-05f8-4960-b114-826dcad4e557")
 	)
-	(global_label "C0_SPI1_MISO"
-		(shape input)
-		(at 147.32 57.15 270)
-		(fields_autoplaced yes)
+	(label "PWR_GOOD_LED"
+		(at 43.18 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "03804ef6-8fa7-4042-bda0-54ef09920723")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 73.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "e4894865-efec-45c7-8e10-e928876e1e3a")
 	)
 	(global_label "C0_I2C1_SCL"
 		(shape input)
-		(at 147.32 106.68 270)
+		(at 168.91 121.92 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -926,93 +1208,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0f7a20a8-196d-444e-9856-ccdc7aead3e7")
+		(uuid "035eb754-37dd-42f8-aca4-7c4481553461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 121.8813 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TR_CSN"
-		(shape input)
-		(at 179.07 57.15 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e5a77f3-3e84-406c-af62-dd8a1f394625")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 67.1504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C0_SPI2_SCK"
-		(shape input)
-		(at 165.1 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20ecdb89-64ed-49e5-9e47-d2f02edbcee7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 99.2632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IMU_CSN"
-		(shape input)
-		(at 179.07 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21238ac3-9a17-445f-a786-e91b66a0306a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 94.9695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C0_SPI1_SCK"
-		(shape input)
-		(at 165.1 57.15 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58245cf0-f2eb-4049-96d8-81e2c2459e2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 72.5932 90)
+			(at 168.91 137.1213 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1221,7 @@
 	)
 	(global_label "C0_I2C1_SDA"
 		(shape input)
-		(at 130.81 106.68 270)
+		(at 152.4 121.92 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1031,9 +1229,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6f5f9ae7-4094-4be6-9b3a-4b754e6967c0")
+		(uuid "16cc62b1-91e3-4c99-aa4c-0c9371c72c69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 121.9418 90)
+			(at 152.4 137.1818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,9 +1240,9 @@
 			)
 		)
 	)
-	(global_label "C0_SPI2_MOSI"
+	(global_label "FAULT_OUT"
 		(shape input)
-		(at 130.81 83.82 270)
+		(at 172.72 91.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1052,9 +1250,9 @@
 			)
 			(justify right)
 		)
-		(uuid "707a4f2a-7faa-44a0-8aec-79348840064c")
+		(uuid "41e3a2a1-26b3-46fb-96d1-e4db2dfa21bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 100.1099 90)
+			(at 172.72 104.5248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,51 +1261,72 @@
 			)
 		)
 	)
-	(global_label "DBG_LED"
+	(global_label "PWM_IN"
 		(shape input)
-		(at 82.55 66.04 0)
+		(at 152.4 92.71 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b373ac97-dc46-43a9-aaf9-6e8754ddff72")
+		(uuid "438982a3-924f-4e11-9ed8-5190b8ea4fab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3128 66.04 0)
+			(at 152.4 102.7709 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "C0_NRST"
+	(global_label "C0_SPI1_SCK"
 		(shape input)
-		(at 82.55 38.1 0)
+		(at 186.69 54.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d39753e2-c317-4d7b-98e4-d0322e4ff06d")
+		(uuid "4c1222c4-14ba-47dc-a3d9-255295bd8912")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7599 38.1 0)
+			(at 186.69 70.0532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TR_CSN"
+		(shape input)
+		(at 200.66 54.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cef72864-5012-4369-bf37-2ef25fc4ba76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 64.6104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
 	(global_label "C0_SPI1_MOSI"
 		(shape input)
-		(at 130.81 57.15 270)
+		(at 152.4 54.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1115,9 +1334,9 @@
 			)
 			(justify right)
 		)
-		(uuid "efa52a2c-8160-4ef7-81ea-eaca583eb5de")
+		(uuid "eaf4193f-2a7e-449f-86af-dbf50df60713")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 73.4399 90)
+			(at 152.4 70.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,9 +1345,30 @@
 			)
 		)
 	)
-	(global_label "C0_SPI2_MISO"
+	(global_label "C0_NRST"
 		(shape input)
-		(at 147.32 83.82 270)
+		(at 80.01 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcd4c9b6-1445-4765-91b9-b76c64544483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2199 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C0_SPI1_MISO"
+		(shape input)
+		(at 168.91 54.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1136,9 +1376,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f64b4827-b597-4353-83d6-4d7f7d7c4a79")
+		(uuid "feed1a81-1d0e-4c46-8a4e-4744229d8033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 100.1099 90)
+			(at 168.91 70.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1389,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 130.81 57.15 0)
+		(at 152.4 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1157,8 +1397,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0037ddcd-aa68-4a3f-b0c5-494c636ef4b2")
-		(property "Reference" "TP74"
-			(at 133.35 52.5779 0)
+		(property "Reference" "TP2"
+			(at 154.94 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1407,7 @@
 			)
 		)
 		(property "Value" "C0_SPI1_MOSI"
-			(at 133.35 55.1179 0)
+			(at 154.94 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1416,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 130.81 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,9 +1446,9 @@
 			(uuid "2b25442e-45bf-4f31-803f-8277fcb20159")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP74")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -1216,7 +1456,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 142.24 33.02 0)
+		(at 152.4 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1224,8 +1464,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06143482-6f16-4886-92d5-4e8e787afb2e")
-		(property "Reference" "TP71"
-			(at 144.78 28.4479 0)
+		(property "Reference" "TP1"
+			(at 154.94 23.3679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 30.9879 0)
+			(at 154.94 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 142.24 33.02 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 33.02 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 33.02 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,9 +1513,9 @@
 			(uuid "3cf03228-235f-4d02-9b50-23198b89a72c")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP71")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1283,16 +1523,16 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 130.81 106.68 0)
+		(at 172.72 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14eeb0e5-e236-466f-9934-34160ef5fcaf")
-		(property "Reference" "TP712"
-			(at 133.35 102.1079 0)
+		(uuid "0b1965f4-a493-4efd-84a7-1b1bbc958edb")
+		(property "Reference" "TP8"
+			(at 175.26 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,8 +1540,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C1_SDA"
-			(at 133.35 104.6479 0)
+		(property "Value" "FAULT_OUT"
+			(at 175.26 86.8679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1550,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 130.81 106.68 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 106.68 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1568,140 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 106.68 0)
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c459b175-4d6c-4a7b-8f84-3d7f953f8e20")
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 80.01 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135114c0-4c43-4731-9499-2be3b596327e")
+		(property "Reference" "#PWR079"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 79.883 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01563ca-b862-43d1-b086-a7bc143022bf")
+		)
+		(instances
+			(project ""
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Global:Testpoint")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14eeb0e5-e236-466f-9934-34160ef5fcaf")
+		(property "Reference" "TP4"
+			(at 154.94 117.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C1_SDA"
+			(at 154.94 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,9 +1713,9 @@
 			(uuid "3e7a4f16-dbd1-48dd-bdf4-ed62b90a3115")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP712")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1350,7 +1723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 40.64 0)
+		(at 152.4 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1358,8 +1731,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc54ba4-fb87-42e5-a1b1-d161516ffe3f")
-		(property "Reference" "#PWR085"
-			(at 142.24 46.99 0)
+		(property "Reference" "#PWR080"
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 45.72 0)
+			(at 152.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,9 +1779,9 @@
 			(uuid "49c875c5-65fc-4b88-959e-f8234019d06b")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR085")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1416,74 +1789,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 147.32 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "339aafc9-b0c3-4e4e-941d-e0dda7cfa4eb")
-		(property "Reference" "TP79"
-			(at 149.86 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI2_MISO"
-			(at 149.86 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9beaaae2-773b-4c96-b677-b61af8dcf70a")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Global:Testpoint")
-		(at 147.32 106.68 0)
+		(at 168.91 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1491,8 +1797,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a00d39-3563-44fc-aa29-fad6cfbea823")
-		(property "Reference" "TP713"
-			(at 149.86 102.1079 0)
+		(property "Reference" "TP7"
+			(at 171.45 117.3479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1807,7 @@
 			)
 		)
 		(property "Value" "I2C1_SCL"
-			(at 149.86 104.6479 0)
+			(at 171.45 119.8879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1816,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 147.32 106.68 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 106.68 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 106.68 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,76 +1846,9 @@
 			(uuid "b5547141-c82c-4d37-af54-420f9a878408")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP713")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Global:Testpoint")
-		(at 130.81 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45b67601-cd6b-4f5c-9be8-9ffa12b59bb4")
-		(property "Reference" "TP78"
-			(at 133.35 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI2_MOSI"
-			(at 133.35 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f330744f-2332-4a52-8034-7ba93dae16e8")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP78")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1617,7 +1856,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 38.1 38.1 90)
+		(at 35.56 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1625,8 +1864,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567da173-6660-4ffa-99ca-75a2efc4aa76")
-		(property "Reference" "R71"
-			(at 38.1 31.75 90)
+		(property "Reference" "R33"
+			(at 35.56 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1873,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 38.1 34.29 90)
+			(at 35.56 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.354 37.084 90)
+			(at 35.814 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 38.1 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1899,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 38.1 38.1 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,9 +1914,9 @@
 			(uuid "07ffc8ea-db75-4748-bd28-c94edd33cb3b")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "R71")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1685,16 +1924,16 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 179.07 83.82 0)
+		(at 152.4 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "684479ae-f85b-4c8e-8dc7-c9e08de2f09c")
-		(property "Reference" "TP711"
-			(at 181.61 79.2479 0)
+		(uuid "69b650ec-ee7c-4039-8f43-5e02e707656f")
+		(property "Reference" "TP3"
+			(at 154.94 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,8 +1941,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IMU_CSN"
-			(at 181.61 81.7879 0)
+		(property "Value" "PWM_IN"
+			(at 154.94 86.8679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 179.07 83.82 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 83.82 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 83.82 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,12 +1978,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "e62a36e7-535d-4fed-8ffb-b5ae0eac6323")
+			(uuid "75b837f4-05c3-4a0c-8dd1-8d830bd62863")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP711")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 35.56 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ab5516a-9156-4a94-8f69-c5f95512b4c6")
+		(property "Reference" "R35"
+			(at 35.56 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 35.56 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.814 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25116004-fd5d-4e4e-ba9d-f5d4784ff528")
+		)
+		(pin "2"
+			(uuid "6f72ca85-d5a5-4025-8973-a2564556a5e4")
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1752,7 +2059,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 165.1 57.15 0)
+		(at 186.69 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1760,8 +2067,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719fe904-fee0-4abf-b85c-cdc44a729449")
-		(property "Reference" "TP76"
-			(at 167.64 52.5779 0)
+		(property "Reference" "TP9"
+			(at 189.23 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +2077,7 @@
 			)
 		)
 		(property "Value" "C0_SPI1_SCK"
-			(at 167.64 55.1179 0)
+			(at 189.23 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +2086,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 165.1 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +2104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,9 +2116,9 @@
 			(uuid "32db3097-d3a4-4aac-811c-826afd7dbeec")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP76")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1819,7 +2126,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 165.1 40.64 0)
+		(at 176.53 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1827,8 +2134,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c3fc813-7ba4-4187-9f8a-ffc000d9a478")
-		(property "Reference" "#PWR083"
-			(at 165.1 44.45 0)
+		(property "Reference" "#PWR081"
+			(at 176.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +2144,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 165.1 35.56 0)
+			(at 176.53 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +2152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 40.64 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +2161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 40.64 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 165.1 40.64 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,9 +2182,9 @@
 			(uuid "c83d4a83-f1b3-4dac-8877-dcccd59a8eeb")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR083")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1885,16 +2192,16 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 29.21 48.26 0)
+		(at 26.67 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e6cec9d-bda2-4d72-80e1-87891f8ce857")
-		(property "Reference" "#PWR051"
-			(at 29.21 52.07 0)
+		(uuid "7d332842-8ffd-44a0-92e7-25dcbc5608e5")
+		(property "Reference" "#PWR076"
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +2210,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 29.21 43.18 0)
+			(at 26.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 48.26 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 48.26 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +2236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 48.26 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,29 +2245,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bfcb872-f50e-4169-a85c-038c2dcd5828")
+			(uuid "2022729e-e060-4cb1-8f19-1fa8ca828bfd")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR051")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 52.07 0)
+		(lib_id "power:+3.3V")
+		(at 26.67 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "959c0190-ed6f-458c-9ec4-ac5268b3054f")
-		(property "Reference" "#PWR052"
-			(at 82.55 58.42 0)
+		(uuid "9171e558-5a08-46e6-aca6-cb79478051ac")
+		(property "Reference" "#PWR075"
+			(at 26.67 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,8 +2275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 82.55 57.15 0)
+		(property "Value" "+3.3V"
+			(at 26.67 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +2284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 52.07 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 52.07 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,8 +2301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,12 +2311,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1018765-4c8c-4c6a-a7ea-b10fb63ef5aa")
+			(uuid "26d327c9-a085-4686-b5f4-2222f9e0a4a8")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR052")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "921b22e9-8d8a-4472-980f-191b3696d06a")
+		(property "Reference" "#PWR078"
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fbd8197-89ca-43f0-8d54-6d8b0eaddef3")
+		)
+		(instances
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2017,7 +2390,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 68.58 38.1 180)
+		(at 66.04 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2025,8 +2398,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b84950c-131f-4ad4-ba16-bdc4478522ee")
-		(property "Reference" "D71"
-			(at 70.1675 30.48 0)
+		(property "Reference" "D1"
+			(at 67.6275 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2407,7 @@
 			)
 		)
 		(property "Value" "LED RED"
-			(at 70.1675 33.02 0)
+			(at 67.6275 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2415,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 68.58 38.1 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 38.1 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2433,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 68.58 38.1 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2442,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 38.1 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,26 +2457,26 @@
 			(uuid "c49894d5-2af4-4541-9067-7d66e9a7020f")
 		)
 		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "D71")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 62.23 0)
+		(lib_id "power:VDD")
+		(at 26.67 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4365136-e1ee-4a26-ab99-2e0a632b2d39")
-		(property "Reference" "#PWR053"
-			(at 29.21 66.04 0)
+		(uuid "b430bf05-357d-427f-b45e-dd658374216b")
+		(property "Reference" "#PWR077"
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,8 +2484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 29.21 57.15 0)
+		(property "Value" "VDD"
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 62.23 0)
+			(at 26.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 62.23 0)
+			(at 26.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,75 +2510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acb6aa9a-f360-41b2-bfb8-0def48172db9")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Global:Testpoint")
-		(at 165.1 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aedbb039-9ec3-4836-9447-5be255633bd4")
-		(property "Reference" "TP710"
-			(at 167.64 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI2_SCK"
-			(at 167.64 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 26.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,12 +2520,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "baa98058-b118-4af8-8742-3abd2ac7f9ab")
+			(uuid "9c63974c-7549-42f4-aff8-3d36a52d9abe")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP710")
+			(project ""
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2227,7 +2533,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 38.1 52.07 90)
+		(at 35.56 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2235,8 +2541,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba98262f-c54b-45f2-8c7a-401c1869b0eb")
-		(property "Reference" "R72"
-			(at 38.1 45.72 90)
+		(property "Reference" "R34"
+			(at 35.56 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2550,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 38.1 48.26 90)
+			(at 35.56 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2558,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.354 51.054 90)
+			(at 35.814 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 52.07 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2576,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 38.1 52.07 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,9 +2591,9 @@
 			(uuid "8b4a2a12-a921-4e8f-84b4-ae7e16acf2da")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "R72")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2295,7 +2601,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 147.32 57.15 0)
+		(at 168.91 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2303,8 +2609,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5439852-fb2c-46af-a319-ea4775f9c9ea")
-		(property "Reference" "TP75"
-			(at 149.86 52.5779 0)
+		(property "Reference" "TP6"
+			(at 171.45 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2619,7 @@
 			)
 		)
 		(property "Value" "C0_SPI1_MISO"
-			(at 149.86 55.1179 0)
+			(at 171.45 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2628,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 147.32 57.15 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 57.15 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 57.15 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,9 +2658,9 @@
 			(uuid "aebb9b6c-21e1-40fd-86e8-88d49540207f")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP75")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2362,7 +2668,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 157.48 33.02 0)
+		(at 168.91 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2370,8 +2676,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d31919d2-9a3c-4302-a150-ecd41a90c9b8")
-		(property "Reference" "TP72"
-			(at 160.02 28.4479 0)
+		(property "Reference" "TP5"
+			(at 171.45 23.3679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2686,7 @@
 			)
 		)
 		(property "Value" "POS3P3"
-			(at 160.02 30.9879 0)
+			(at 171.45 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2695,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 157.48 33.02 0)
+			(at 168.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 33.02 0)
+			(at 168.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 33.02 0)
+			(at 168.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,9 +2725,9 @@
 			(uuid "31743267-3cce-419c-8fa6-fde3ab8332d6")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP72")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2735,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 179.07 57.15 0)
+		(at 200.66 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2437,8 +2743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9daf6d7-cd7d-444f-beb2-5224df4aa5e4")
-		(property "Reference" "TP77"
-			(at 181.61 52.5779 0)
+		(property "Reference" "TP10"
+			(at 203.2 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2753,7 @@
 			)
 		)
 		(property "Value" "TR_CSN"
-			(at 181.61 55.1179 0)
+			(at 203.2 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 179.07 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,77 +2792,9 @@
 			(uuid "387f8d42-bdef-4e44-96ee-70585b1eabc8")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "TP77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daaa7afa-7a2b-4aee-94c4-3afe6b8cb477")
-		(property "Reference" "R73"
-			(at 38.1 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 38.1 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.354 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69d86afc-45ab-48ec-9c6e-27994c4176ee")
-		)
-		(pin "2"
-			(uuid "e2a08c07-59ee-4ef2-b540-2c3248009a09")
-		)
-		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "R73")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2802,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 68.58 66.04 180)
+		(at 66.04 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2572,8 +2810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e35ca6-853d-4a3a-8919-82f6747cf34d")
-		(property "Reference" "D73"
-			(at 70.1675 58.42 0)
+		(property "Reference" "D3"
+			(at 67.6275 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2819,7 @@
 			)
 		)
 		(property "Value" "LED BLUE"
-			(at 70.1675 60.96 0)
+			(at 67.6275 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2827,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 68.58 66.04 0)
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 66.04 0)
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2845,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 68.58 66.04 0)
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2854,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 66.04 0)
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,9 +2869,9 @@
 			(uuid "8c994500-cfc6-419b-afda-4d7b4cf2fec9")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "D73")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2879,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 68.58 52.07 180)
+		(at 66.04 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2649,8 +2887,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7170de5-d850-49cb-8bb7-057d428e2646")
-		(property "Reference" "D72"
-			(at 70.1675 44.45 0)
+		(property "Reference" "D2"
+			(at 67.6275 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2896,7 @@
 			)
 		)
 		(property "Value" "LED GREEN"
-			(at 70.1675 46.99 0)
+			(at 67.6275 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 68.58 52.07 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 52.07 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2922,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 68.58 52.07 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2931,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 52.07 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,75 +2946,9 @@
 			(uuid "c0dcdb8d-7bae-4a53-91f2-3ac72904f7b4")
 		)
 		(instances
-			(project "DroneProject"
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "D72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8b47973-7815-478b-aa81-779c70a556d8")
-		(property "Reference" "#PWR050"
-			(at 29.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 29.21 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b643e20-e75f-4280-bede-cb629b77fa50")
-		)
-		(instances
-			(project ""
-				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/549b7e14-111c-4b4c-b760-2593bded07ed"
-					(reference "#PWR050")
+			(project "DroneBrushlessESC"
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/9889bfb1-7b10-4937-a69d-33a63160ee36"
+					(reference "D2")
 					(unit 1)
 				)
 			)

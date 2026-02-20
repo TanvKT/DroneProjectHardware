@@ -8974,7 +8974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce9b3139-2ce6-48ba-afb3-8ee04ad5a349")
-		(property "Reference" "R5"
+		(property "Reference" "R429"
 			(at 153.924 50.292 90)
 			(effects
 				(font
@@ -9026,7 +9026,7 @@
 		(instances
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/e25377bf-9845-4f44-9d9e-87e2530b67ae"
-					(reference "R5")
+					(reference "R429")
 					(unit 1)
 				)
 			)

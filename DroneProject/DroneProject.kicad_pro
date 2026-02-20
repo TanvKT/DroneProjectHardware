@@ -9,9 +9,9 @@
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.2,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -80,7 +80,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -123,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.25,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -154,7 +154,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -165,7 +165,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -176,7 +176,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -187,7 +187,15 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1016,
+        0.127,
+        0.1524,
+        0.2032,
+        0.254,
+        0.3048,
+        0.508,
+        0.762
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +227,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4064,
+          "drill": 0.2032
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.61,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -471,49 +491,55 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power (3.3, 5)",
-        "pcb_color": "rgb(255, 147, 0)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "VBAT/Motors",
-        "pcb_color": "rgb(255, 0, 7)",
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 0.3048,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -521,68 +547,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "Power (3.3, 5)",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Power (3.3, 5)",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "ISEN+"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "/Connectors/VBAT_FUSE"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "VBAT_TVS"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "VBAT_PROT"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "/Connectors/VBAT_SW"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "-BATT"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "VDD"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "/Power/VBAT_SW"
-      },
-      {
-        "netclass": "Power (3.3, 5)",
-        "pattern": "/Power/VBAT_SW_R"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "+8V"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "/Power/8V_PH"
-      },
-      {
-        "netclass": "VBAT/Motors",
-        "pattern": "/Power/8V_VSNS"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

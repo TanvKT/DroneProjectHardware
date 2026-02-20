@@ -918,7 +918,7 @@
 	)
 	(global_label "C0_I2C1_SCL"
 		(shape input)
-		(at 147.32 106.68 270)
+		(at 147.32 115.57 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -928,7 +928,7 @@
 		)
 		(uuid "0f7a20a8-196d-444e-9856-ccdc7aead3e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 121.8813 90)
+			(at 147.32 130.7713 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 	)
 	(global_label "C0_I2C1_SDA"
 		(shape input)
-		(at 130.81 106.68 270)
+		(at 130.81 115.57 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1033,7 +1033,7 @@
 		)
 		(uuid "6f5f9ae7-4094-4be6-9b3a-4b754e6967c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 121.9418 90)
+			(at 130.81 130.8318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1283,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 130.81 106.68 0)
+		(at 130.81 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1292,7 +1292,7 @@
 		(fields_autoplaced yes)
 		(uuid "14eeb0e5-e236-466f-9934-34160ef5fcaf")
 		(property "Reference" "TP712"
-			(at 133.35 102.1079 0)
+			(at 133.35 110.9979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,7 @@
 			)
 		)
 		(property "Value" "I2C1_SDA"
-			(at 133.35 104.6479 0)
+			(at 133.35 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 130.81 106.68 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 106.68 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 106.68 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 	)
 	(symbol
 		(lib_id "Global:Testpoint")
-		(at 147.32 106.68 0)
+		(at 147.32 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1492,7 +1492,7 @@
 		(fields_autoplaced yes)
 		(uuid "36a00d39-3563-44fc-aa29-fad6cfbea823")
 		(property "Reference" "TP713"
-			(at 149.86 102.1079 0)
+			(at 149.86 110.9979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 			)
 		)
 		(property "Value" "I2C1_SCL"
-			(at 149.86 104.6479 0)
+			(at 149.86 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" "Library:Testpoint 1.6mm x 0.8mm"
-			(at 147.32 106.68 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 106.68 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 106.68 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

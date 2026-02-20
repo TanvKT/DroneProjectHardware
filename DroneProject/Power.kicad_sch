@@ -4254,6 +4254,16 @@
 		)
 		(uuid "9f46a2fb-e638-4303-936d-1ccc3b1347fc")
 	)
+	(label "3.3_SW"
+		(at 133.35 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f18f1dad-7e65-4007-b76d-396bd72f0130")
+	)
 	(global_label "SWD_NRST"
 		(shape input)
 		(at 172.72 81.28 180)

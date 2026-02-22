@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "70ff0c9c-a0bd-4865-82a9-12d572e45e9f")
+	(uuid "f40ef422-0fc5-408e-84fa-1ad5337a68ba")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A2"
@@ -2874,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 132.08 143.51)
+			(xy 132.08 162.56) (xy 132.08 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3034,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 135.89) (xy 220.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb65b42-c1c8-4537-8fde-b6b2652f0e70")
+	)
+	(wire
+		(pts
 			(xy 80.01 105.41) (xy 83.82 105.41)
 		)
 		(stroke
@@ -3041,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "7d0c2f88-41f2-40e1-a0b1-d9ed7fbee0b0")
+	)
+	(wire
+		(pts
+			(xy 132.08 152.4) (xy 132.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8482b7fe-ce21-4881-9d1e-6704a0fe3dd9")
 	)
 	(wire
 		(pts
@@ -3254,16 +3274,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 128.27) (xy 220.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38d2898-90a3-4dda-88c1-f806622b935c")
-	)
-	(wire
-		(pts
 			(xy 80.01 113.03) (xy 83.82 113.03)
 		)
 		(stroke
@@ -3321,6 +3331,16 @@
 			(type default)
 		)
 		(uuid "dfa954db-b4d8-4424-887f-4433bff412d3")
+	)
+	(wire
+		(pts
+			(xy 220.98 128.27) (xy 220.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2108ea1-3e6f-400e-8fbf-70f94bcd6f94")
 	)
 	(wire
 		(pts
@@ -5228,7 +5248,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 132.08 156.21 0)
+		(at 132.08 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5237,7 +5257,7 @@
 		(fields_autoplaced yes)
 		(uuid "6070d3a5-0eb1-4c1c-a126-68ab3a2c4f52")
 		(property "Reference" "#PWR053"
-			(at 132.08 161.29 0)
+			(at 132.08 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5266,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 131.953 160.02 0)
+			(at 131.953 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 157.48 0)
+			(at 132.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 157.48 0)
+			(at 132.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 132.08 156.21 0)
+			(at 132.08 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6180,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 220.98 132.08 0)
+		(at 220.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6169,7 +6189,7 @@
 		(fields_autoplaced yes)
 		(uuid "8876dc1f-20bd-4b51-806f-3750e3632b10")
 		(property "Reference" "#PWR066"
-			(at 220.98 137.16 0)
+			(at 220.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6198,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 220.853 135.89 0)
+			(at 220.853 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 133.35 0)
+			(at 220.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 133.35 0)
+			(at 220.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 220.98 132.08 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,6 +6649,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 132.08 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e396413-0c3d-4d63-b6de-e947855690f9")
+		(property "Reference" "NT5"
+			(at 133.35 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 123.444 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0593471-0660-45d0-a9c0-3f2e8b035c78")
+		)
+		(pin "2"
+			(uuid "49b0c6d6-a8f8-4db4-aa0c-cc11eef41414")
+		)
+		(instances
+			(project ""
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/e65145b7-d6a3-4fa6-80d1-6d6a13317df0"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 207.01 106.68 0)
 		(unit 1)
@@ -6689,6 +6778,76 @@
 			(project "DroneBrushlessESC"
 				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/e65145b7-d6a3-4fa6-80d1-6d6a13317df0"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 220.98 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39dc854-0d56-455f-bfca-35ede1f05bdd")
+		(property "Reference" "NT6"
+			(at 222.25 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 222.25 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "383591b1-ed7b-40dc-b6a9-cc85c2ed5f45")
+		)
+		(pin "1"
+			(uuid "2ef6d28f-6488-4bd3-b2a6-1f84051d79b3")
+		)
+		(instances
+			(project ""
+				(path "/3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0/e65145b7-d6a3-4fa6-80d1-6d6a13317df0"
+					(reference "NT6")
 					(unit 1)
 				)
 			)

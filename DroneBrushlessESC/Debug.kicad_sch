@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f011d523-0049-4759-a0a5-86c18157e0e0")
+	(uuid "2437d19e-c22d-454b-b4e1-40a24b760e25")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -1303,7 +1303,7 @@
 			)
 		)
 	)
-	(global_label "TR_CSN"
+	(global_label "MTR_CSN"
 		(shape input)
 		(at 200.66 54.61 270)
 		(fields_autoplaced yes)
@@ -1315,7 +1315,7 @@
 		)
 		(uuid "cef72864-5012-4369-bf37-2ef25fc4ba76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 64.6104 90)
+			(at 200.66 66.0618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TR_CSN"
+		(property "Value" "MTR_CSN"
 			(at 203.2 52.5779 0)
 			(effects
 				(font

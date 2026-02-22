@@ -1813,6 +1813,12 @@
 		(uuid "de6054ea-76c1-4475-b201-e889d6d76ba6")
 	)
 	(junction
+		(at 180.34 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea23ae59-d1d7-4a8f-bf63-cadabd6045d0")
+	)
+	(junction
 		(at 71.12 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1958,6 +1964,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 119.38) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b680470-d119-45e1-984d-f9e5543eb7d6")
+	)
+	(wire
+		(pts
 			(xy 106.68 55.88) (xy 113.03 55.88)
 		)
 		(stroke
@@ -2048,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 194.31 105.41)
+			(xy 156.21 119.38) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2295,6 +2311,16 @@
 			(type default)
 		)
 		(uuid "df1d838a-545d-47d0-830c-285392798b6c")
+	)
+	(wire
+		(pts
+			(xy 194.31 119.38) (xy 194.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8264427-4821-4232-9b0a-a2054bc927ce")
 	)
 	(wire
 		(pts
@@ -2545,7 +2571,7 @@
 	)
 	(global_label "EEPROM_WC"
 		(shape input)
-		(at 193.04 105.41 180)
+		(at 156.21 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2555,7 +2581,7 @@
 		)
 		(uuid "8274230e-2a6c-40d0-9703-ecc44ed98cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.7459 105.41 0)
+			(at 141.9159 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,6 +4640,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a00878b8-0d92-4326-8b2f-c06b497562d7")
+		(property "Reference" "R67"
+			(at 181.864 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 181.864 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 179.324 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61cc9774-43cf-4b23-8134-7432b18a4b20")
+		)
+		(pin "2"
+			(uuid "36e26aaf-57c7-48c5-b6c2-ee831a8cf76f")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 114.3 0)
 		(unit 1)
@@ -5209,6 +5304,72 @@
 			(project "DroneProject"
 				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 180.34 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c999ef38-7116-4a67-824f-af5ed10ea25d")
+		(property "Reference" "#PWR0118"
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a96ffa-5d8f-4104-abcb-2e80ebb5fdab")
+		)
+		(instances
+			(project "DroneProject"
+				(path "/feb4ca7b-5376-4689-a73b-f56020a5aa30/7cfdeeab-6878-42e6-abbb-2c878b968332"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)

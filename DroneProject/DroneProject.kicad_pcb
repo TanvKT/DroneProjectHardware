@@ -3355,6 +3355,148 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "2a52d9f7-e250-464e-b9ff-6e4de554234d")
+		(at 164.71 108.2 180)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R67"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "28f7ea32-cbda-4762-8869-d7a8ea26cd72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "e9eaa2ca-53d5-4118-a91b-7abaffbcb96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90660ee9-b32d-4373-8a72-093eb5846bd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2263d7a8-d2d1-4df9-a9f3-48ad9eabfde3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7cfdeeab-6878-42e6-abbb-2c878b968332/a00878b8-0d92-4326-8b2f-c06b497562d7")
+		(sheetname "/Peripherals/")
+		(sheetfile "Sensors.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "563e5374-cddb-47a3-8b5e-44e91c562a4e")
+		)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec2724c4-9844-4a74-a5f9-ba67b350fd5a")
+		)
+		(fp_rect
+			(start -0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e24ad801-f9a1-481d-a429-33ecb7d8967c")
+		)
+		(fp_rect
+			(start -0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "94faec8e-0220-4f7d-b45b-ce4a7c06fec7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f7464664-604f-490b-8ed3-a6c0beca2f79")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0 180)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 59 "EEPROM_WC")
+			(pintype "passive")
+			(uuid "7ebfb944-7362-4dda-82d0-24848697cc40")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0 180)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 4 "+3.3V")
+			(pintype "passive")
+			(uuid "83e12f54-7cc8-4f9a-991e-7e9c5f955d4b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2d3a180f-7b26-467d-871f-a27ef1f83936")
@@ -25225,6 +25367,14 @@
 		(uuid "9eb9fd50-6db1-42ae-84c9-5e7fffa1d407")
 	)
 	(segment
+		(start 164.2 108.2)
+		(end 164.2 106.3)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "9ec488f8-4011-431d-8aa7-b4b72cafc744")
+	)
+	(segment
 		(start 135.3375 110.8)
 		(end 135.3375 112.5625)
 		(width 0.2)
@@ -25383,6 +25533,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "ec6946b9-f326-4e19-a07b-848fd80f15d4")
+	)
+	(segment
+		(start 164.2 106.3)
+		(end 163.4 105.5)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "ee2d4814-24c8-4e00-afd1-b367b97c8f7d")
 	)
 	(segment
 		(start 136.2 133.541974)
@@ -27963,6 +28121,14 @@
 		(uuid "8f041e68-70d0-440d-a046-87b0da2990ed")
 	)
 	(segment
+		(start 168.1 108.1)
+		(end 168 108.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 59)
+		(uuid "566ef4e0-adbc-4c9a-be23-160acee512f4")
+	)
+	(segment
 		(start 150.25 108.05)
 		(end 150.25 105.749999)
 		(width 0.2)
@@ -27977,6 +28143,14 @@
 		(layer "F.Cu")
 		(net 59)
 		(uuid "7cfbd5c7-e7b7-443c-871a-3de1d7dc024f")
+	)
+	(segment
+		(start 168 108.2)
+		(end 165.22 108.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 59)
+		(uuid "b50cbf7d-9212-43f7-9389-96e360b9a723")
 	)
 	(segment
 		(start 150.2 108.1)

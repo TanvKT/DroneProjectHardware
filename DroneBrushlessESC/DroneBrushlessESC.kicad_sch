@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3aa1a426-ad7e-4dd6-a1c5-7f97b630afc0")
 	(paper "A4")
+	(title_block
+		(title "Brushless ESC")
+		(date "2026-02-23")
+		(rev "0-1")
+	)
 	(lib_symbols)
 	(sheet
 		(at 612.14 218.44)

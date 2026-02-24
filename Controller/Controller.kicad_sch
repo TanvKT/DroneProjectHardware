@@ -1,0 +1,271 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4")
+	(paper "A4")
+	(title_block
+		(title "Controller")
+		(date "2026-02-23")
+		(rev "0-1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 0 217.17)
+		(size 203.2 195.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38130ccf-d889-46bc-b9b8-48ee8b4e403f")
+		(property "Sheetname" "Power"
+			(at 0 216.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 0 413.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 427.99)
+		(size 228.6 209.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b69b307-2cb9-4282-89e5-d55adae965ab")
+		(property "Sheetname" "Peripherals"
+			(at 1.27 427.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 1.27 638.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 429.26)
+		(size 215.9 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "965272cd-9a0d-4cb2-a2d2-60d78187aa6f")
+		(property "Sheetname" "Debug"
+			(at 254 428.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 254 640.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 308.61 0)
+		(size 248.92 203.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a26c83b4-e81a-4012-817a-f5923b73f22a")
+		(property "Sheetname" "Connectors"
+			(at 308.61 -0.7116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 308.61 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 218.44)
+		(size 228.6 190.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7d8454e-f29b-4b8d-a474-e6853a1d9dcf")
+		(property "Sheetname" "MCU"
+			(at 220.98 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 220.98 409.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 468.63 217.17)
+		(size 224.79 191.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee6c315f-84fe-47df-9265-a9b7d8ef1dec")
+		(property "Sheetname" "Transciever"
+			(at 468.63 216.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transciever.kicad_sch"
+			(at 468.63 409.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/fb68ed2f-bfac-40f5-8fa0-5ab86dccc0d4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

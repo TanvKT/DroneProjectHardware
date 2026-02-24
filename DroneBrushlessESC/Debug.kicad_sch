@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "2437d19e-c22d-454b-b4e1-40a24b760e25")
 	(paper "A4")
+	(title_block
+		(title "Debug")
+		(date "2026-02-23")
+		(rev "0-1")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers

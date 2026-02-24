@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f40ef422-0fc5-408e-84fa-1ad5337a68ba")
 	(paper "A4")
+	(title_block
+		(title "Motor")
+		(date "2026-02-23")
+		(rev "0-1")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A2"
 			(pin_names
